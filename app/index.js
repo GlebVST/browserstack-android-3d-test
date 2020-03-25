@@ -21,7 +21,10 @@ const capabilities = {
   android10: {
     name: 'model-render',
     build: targetPlatform,
-    device: 'OnePlus 7T',
+    // Google devices show "Sign In to Google Play" screeen
+    // device: 'Google Pixel 3',
+    // device: 'Google Pixel 4',
+    device: 'OnePlus 7T', // OnePlus usually works
     os_version: '10.0',
     browser: 'chrome',
     'browserstack.local': true,
@@ -38,10 +41,10 @@ const capabilities = {
     name: 'model-render',
     build: targetPlatform,
 
-    // these devices frequently fail to open Scene View due to google play issues
+    // these devices frequently fail to open Scene View due to google play issues (can't connect etc)
     // device: 'Samsung Galaxy S10',
     // device: 'Google Pixel 3',
-    device: 'Google Pixel 3a XL',
+    device: 'Google Pixel 3a XL', // Pixel 3a XL worked a few times
     os_version: '9.0',
     browser: 'chrome',
     'browserstack.local': true,
