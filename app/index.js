@@ -49,10 +49,10 @@ const capabilities = {
     'browserstack.console': 'verbose',
     'browserstack.networkLogs': true,
     'browserstack.appium_version': '1.16.0',
-    // 'browserstack.appStoreConfiguration': {
-    //   "username" : process.env.GOOGLE_PLAY_USERNAME,
-    //   "password" : process.env.GOOGLE_PLAY_PASSWORD
-    // }
+    'browserstack.appStoreConfiguration': {
+      "username" : process.env.GOOGLE_PLAY_USERNAME,
+      "password" : process.env.GOOGLE_PLAY_PASSWORD
+    }
   }
 };
 
