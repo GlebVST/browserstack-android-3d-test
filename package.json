@@ -1,0 +1,24 @@
+{
+  "name": "browserstack-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "node server",
+    "android9": "node app --platform=android9",
+    "android10": "node app --platform=android10"
+  },
+  "author": "threedy",
+  "dependencies": {
+    "@wdio/sync": "^5.16.15",
+    "aws-sdk": "^2.590.0",
+    "browserstack-local": "^1.4.2",
+    "chalk": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "minimist": "^1.2.0",
+    "morgan": "^1.9.1",
+    "webdriverio": "^5.16.15"
+  }
+}
